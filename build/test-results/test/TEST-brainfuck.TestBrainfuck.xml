@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="brainfuck.TestBrainfuck" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-07-27T20:24:55" hostname="DESKTOP-B7QCH0R" time="0.425">
+  <properties/>
+  <testcase name="testSymbols()" classname="brainfuck.TestBrainfuck" time="0.017"/>
+  <testcase name="testObjects()" classname="brainfuck.TestBrainfuck" time="0.001"/>
+  <testcase name="testLongString()" classname="brainfuck.TestBrainfuck" time="0.002"/>
+  <testcase name="testLoop()" classname="brainfuck.TestBrainfuck" time="0.404"/>
+  <system-out><![CDATA[O11Brainfuck is an esoteric programming languageOK]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
