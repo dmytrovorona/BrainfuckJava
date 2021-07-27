@@ -1,0 +1,18 @@
+brainfuck/Command.java
+ brainfuck.Command
+brainfuck/Output.java
+ brainfuck.Output
+brainfuck/IncrementData.java
+ brainfuck.IncrementData
+brainfuck/Loop.java
+ brainfuck.Loop
+brainfuck/Compiler.java
+ brainfuck.Compiler
+brainfuck/IncrementPointer.java
+ brainfuck.IncrementPointer
+brainfuck/Memory.java
+ brainfuck.Memory
+brainfuck/DecrementData.java
+ brainfuck.DecrementData
+brainfuck/DecrementPointer.java
+ brainfuck.DecrementPointer
