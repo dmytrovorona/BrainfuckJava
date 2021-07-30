@@ -1,5 +1,5 @@
 package brainfuck;
 
 public interface Command {
-    void execute();
+    void execute(Memory m);
 }

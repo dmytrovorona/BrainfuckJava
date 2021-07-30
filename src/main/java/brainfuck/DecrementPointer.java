@@ -1,12 +1,12 @@
 package brainfuck;
 
 public class DecrementPointer implements Command {
-    public void execute() {
-        if (Memory.getPointer() == 0) { // If pointer is zero
+    public void execute(Memory m) {
+        if (m.getPointer() == 0) { // If pointer is zero
             // then reset pointer to rightmost memory position.
-            Memory.setPointer(Memory.getMaxMemory() - 1);
+            m.setPointer(m.getMaxMemory() - 1);
         } else {
-            Memory.setPointer(Memory.getPointer() - 1);
+            m.setPointer(m.getPointer() - 1);
         }
     }
 }

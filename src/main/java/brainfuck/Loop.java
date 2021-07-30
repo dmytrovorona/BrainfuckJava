@@ -9,11 +9,11 @@ public class Loop implements Command {
         innerLoopCommands = new ArrayList<>(commandsList);
     }
 
-    public void execute() {
+    public void execute(Memory m) {
         // Loop commands execute while current cell data is not zero.
-        while (Memory.getCurrentCell() != 0) {
+        while (m.getCurrentCell() != 0) {
             for (Command innerLoopCommand : innerLoopCommands) {
-                innerLoopCommand.execute();
+                innerLoopCommand.execute(m);
             }
         }
     }
